@@ -71,6 +71,19 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+  .s2 .main-section .bottom-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .s2 .main-section .bottom-section .left-section {
@@ -78,9 +91,22 @@ a {
   padding-top: 5%;
 }
 
+@media screen and (max-width: 1000px) {
+  .s2 .main-section .bottom-section .left-section {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 .s2 .main-section .bottom-section .right-section {
   padding: 5%;
   width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .s2 .main-section .bottom-section .right-section {
+    width: 100%;
+  }
 }
 
 .s3 {

@@ -60,15 +60,27 @@ a {
 
     .bottom-section {
       display: flex;
+      flex-direction: row;
+
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+      }
 
       .left-section {
         width: 50%;
         padding-top: 5%;
+        @media screen and (max-width: 1000px) {
+          width: 100%;
+          text-align: center;
+        }
       }
 
       .right-section {
         padding: 5%;
         width: 50%;
+        @media screen and (max-width: 1000px) {
+          width: 100%;
+        }
       }
     }
   }
