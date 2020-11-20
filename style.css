@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Bitter", sans-serif;
+}
+
+h1 {
+  /* font-size: 50px; */
+  color: #ecf0f1;
+}
+
+strong {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #80a4c6;
+}
+
+.s1 {
+  background-color: #dddddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.s1 h1 {
+  color: #333333;
+  font-size: 7em;
+  font-weight: 100;
+}
+
+.s1 h3 {
+  color: #888888;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.s2 {
+  background-color: #ffffff;
+}
+
+.s2 .main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5%;
+}
+
+.s2 .main-section .top-section h1 {
+  font-size: 3em;
+  color: #373737;
+}
+
+.s2 .main-section .bottom-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.s2 .main-section .bottom-section .left-section {
+  width: 50%;
+  padding-top: 5%;
+}
+
+.s2 .main-section .bottom-section .right-section {
+  padding: 5%;
+  width: 50%;
+}
+
+.s3 {
+  background-color: #34495e;
+}
+
+.s4 {
+  background-color: #3498db;
+}
+
+.s3 {
+  background-color: #e67e22;
+}
+/*# sourceMappingURL=style.css.map */
