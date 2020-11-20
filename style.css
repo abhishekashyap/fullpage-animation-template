@@ -86,6 +86,11 @@ a {
   }
 }
 
+.s2 .main-section .bottom-section img {
+  height: 100%;
+  width: 100%;
+}
+
 .s2 .main-section .bottom-section .left-section {
   width: 50%;
   padding-top: 5%;
